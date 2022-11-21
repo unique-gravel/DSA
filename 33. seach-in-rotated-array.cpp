@@ -1,5 +1,7 @@
+//find pivot element and find target is n which side of pivot and apply binary search.
+
 #include <iostream>
-// #include<vector>
+#include<vector>
 using namespace std;
 
 int findPivot(int arr[], int size) {
