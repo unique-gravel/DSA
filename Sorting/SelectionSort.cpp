@@ -14,7 +14,7 @@ vector<int> sortArray(vector<int>& nums) {
             swap(nums[minIndex], nums[i]);
         }
         return nums;
-    }
+}
 
 int main()
 {

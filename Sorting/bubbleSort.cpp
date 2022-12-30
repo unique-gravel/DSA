@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> sortArray(vector<int>& nums) {
+vector<int> sortArray(vector<int> nums) {
         int n = nums.size();
         for(int i = 1; i < n; i++) {
 
