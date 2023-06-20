@@ -118,6 +118,18 @@ void print (Node* &head) {
     cout << endl;
 }
 
+int length(Node* head) {
+    
+    int len = 0;
+    Node* temp = head;
+    while(temp != NULL){
+        len++;
+        temp = temp->next;
+    }
+
+    return len;
+}
+
 int main()
 {
     Node* node1 = new Node(10);
@@ -140,5 +152,10 @@ int main()
 
     deletNode(node1, 3);
     print(node1);
+    
+    int len = length(node1);
+    
+    cout << len;
+
     return 0;
 }
